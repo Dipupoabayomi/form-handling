@@ -12,8 +12,8 @@ function App() {
     <div className='hero-section'>
     <div className=' grid grid-cols-1 lg:grid-cols-2 container lg:w-[80%] w-11/12 gap-16 py-5 lg:p-20 mx-auto items-center'>
       <div className='flex flex-col gap-4'>
-        <h1 className='text-3xl text-white font-bold'>Learn to code by watching others</h1>
-        <p className='text-white'>see how developers solve problem in real-time. watching scripted tutorial is great, but understanding how developers think is invaluable</p>
+        <h1 className='text-3xl text-center lg:text-left text-white font-bold'>Learn to code by watching others</h1>
+        <p className='text-white text-center lg:text-left'>see how developers solve problem in real-time. watching scripted tutorial is great, but understanding how developers think is invaluable</p>
       </div>
       <div className='flex flex-col gap-5'>
         <div className='bg-[#6055a5] p-5 text-center px-8 rounded-md text-white'><p><b>Try it for free 7 days</b> then 20$/month, thereafter.</p> </div>
