@@ -75,10 +75,10 @@ const baseUrl = import.meta.env.VITE_BASE_URL;
            {...register("lastname",{
             required: "Lastname is required"
            })}
-           className={`border ${errors.Lastname ? 'border-red-500' : 'border border-gray-500'} outline-none p-2 rounded-md`} type="text"
+           className={`border ${errors.lastname ? 'border-red-500' : 'border border-gray-500'} outline-none p-2 rounded-md`} type="text"
            placeholder="Last Name"
           />
-          {errors.Lastname && <p className='text-red-500 font-semibold'>{errors.Lastname.message}</p> }
+          {errors.lastname && <p className='text-red-500 font-semibold'>{errors.lastname.message}</p> }
            <input
            {...register("email",{
             required: "Email is required",
