@@ -33,10 +33,11 @@ const baseUrl = import.meta.env.VITE_BASE_URL;
 
       if (res.status !== 201){
         setLoading(false)
+        toast.error("something went wrong")
       }
     } catch (error) {
       // console.log(error);
-      toast.error("something went wrong")
+      // toast.error("something went wrong")
     }
 
   }
