@@ -45,10 +45,12 @@
   background-repeat: no-repeat;
   background-size: cover;
   background-color: hsl(0, 100%, 74%) ;
+  
 }
 
 @media (width > 768px) {
   .hero-section{
-      background-image: url('/src/assets/images/bg-intro-desktop.png')
+      background-image: url('/src/assets/images/bg-intro-desktop.png');
+      height: 100vh;
   }
 }
